@@ -12,11 +12,7 @@ add quick reminders
 
 ## On single click
 
-TODO
-
-## On long press
-
-TODO
+When clicked a dialog box will appear to configure the reminder (date, hour, description...). The action will check every minute if any of the reminders has to be notified.
 
 ## Localizations
 
