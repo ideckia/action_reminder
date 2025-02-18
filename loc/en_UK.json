@@ -1,0 +1,26 @@
+[
+	{
+		"id": "action_description",
+		"text": "Create quick reminders"
+	},
+	{
+		"id": "prop_sound_path",
+		"text": "Path of the sound to play. Let it empty if you don't want to play any sound."
+	},
+	{
+		"id": "empty_fields_title",
+		"text": "Empty fields"
+	},
+	{
+		"id": "empty_fields_body",
+		"text": "All fields must be filled"
+	},
+	{
+		"id": "sound_not_existing_title",
+		"text": "Sound file missing"
+	},
+	{
+		"id": "sound_not_existing_body",
+		"text": "The given sound file path does not exist: [{0}]"
+	}
+]

@@ -1,0 +1,42 @@
+{
+	"title": "Reminder",
+	"window_size": [
+		350,
+		250
+	],
+	"body": [
+		{
+			"label": {
+				"text": "Create a new reminder"
+			}
+		},
+		{
+			"calendar": {
+				"id": "day",
+				"required": true
+			}
+		},
+		{
+			"text": {
+				"id": "time",
+				"required": true,
+				"placeholder": "18:00"
+			}
+		},
+		{
+			"text": {
+				"id": "description",
+				"required": true,
+				"multiline": true,
+				"placeholder": "description"
+			}
+		},
+		{
+			"check": {
+				"id": "play_sound",
+				"label": "Play sound",
+				"checked": true
+			}
+		}
+	]
+}

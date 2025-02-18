@@ -1,0 +1,42 @@
+{
+	"title": "Oroigarria",
+	"window_size": [
+		350,
+		250
+	],
+	"body": [
+		{
+			"label": {
+				"text": "Oroigarri berri bat sortu"
+			}
+		},
+		{
+			"calendar": {
+				"id": "day",
+				"required": true
+			}
+		},
+		{
+			"text": {
+				"id": "time",
+				"required": true,
+				"placeholder": "18:00"
+			}
+		},
+		{
+			"text": {
+				"id": "description",
+				"required": true,
+				"multiline": true,
+				"placeholder": "deskribapena"
+			}
+		},
+		{
+			"check": {
+				"id": "play_sound",
+				"label": "Soinua egin",
+				"checked": true
+			}
+		}
+	]
+}
