@@ -8,7 +8,7 @@ add quick reminders
 
 | Name | Type | Description | Shared | Default | Possible values |
 | ----- |----- | ----- | ----- | ----- | ----- |
-| sound_path | path | prop_sound_path | false | "ding.mp3" | null |
+| sound_path | path | prop_sound_path | false | "ding.mp3" | [] |
 
 ## On single click
 

@@ -6,7 +6,7 @@ using api.IdeckiaApi;
 using StringTools;
 
 typedef Props = {
-	@:editable("prop_sound_path", "ding.mp3", null, PropEditorFieldType.path)
+	@:editable("prop_sound_path", "ding.mp3", [], PropEditorFieldType.path)
 	var sound_path:String;
 }
 
