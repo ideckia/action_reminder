@@ -161,7 +161,8 @@ abstract Time(String) {
 	function splitHourMinute() {
 		if (this == null)
 			return [0, 0];
-		return this.split(':').map(c -> (c == '') ? 0 : Std.parseInt(c));
+		var separator = this.contains(':') ? ':' : '.';
+		return this.split(separator).map(c -> (c == '') ? 0 : Std.parseInt(c));
 	}
 
 	public function getHour()
